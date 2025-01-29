@@ -23,3 +23,17 @@
 .edu-tas-beginner-paragraph {
     font-family: "Edu TAS Beginner", serif;
 }
+
+.rotation {
+    transition: transform 0.5s ease;
+}
+
+.rotation:hover {
+    z-index: 1;
+    transform: rotate(20deg);
+    cursor: pointer;
+}
+
+section:hover a {
+    display: none;
+}
