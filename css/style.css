@@ -29,11 +29,14 @@
 }
 
 .rotation:hover {
-    z-index: 1;
     transform: rotate(20deg);
     cursor: pointer;
 }
 
 section:hover a {
     display: none;
+}
+
+.background-transparent {
+    background-color: rgba(0, 0, 0, 0.8);
 }
