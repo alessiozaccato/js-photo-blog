@@ -37,6 +37,11 @@ section:hover a {
     display: none;
 }
 
-.background-transparent {
+.transparent {
     background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dimensions {
+    height: 100vh;
+    width: 100vw;
 }

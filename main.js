@@ -44,7 +44,7 @@ fetch("https://lanciweb.github.io/demo/api/pictures/")
             </figure>
                 `
                 modal.classList.remove("d-none");
-
+                modal.classList.add("transparent");
 
                 let btnClose = document.getElementById("btnClose");
                 btnClose.addEventListener("click", function () {
