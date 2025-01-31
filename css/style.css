@@ -39,9 +39,10 @@ section:hover a {
 
 .transparent {
     background-color: rgba(0, 0, 0, 0.8);
-}
-
-.dimensions {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

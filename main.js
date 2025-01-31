@@ -36,12 +36,12 @@ fetch("https://lanciweb.github.io/demo/api/pictures/")
                 let modal = document.getElementById("modalHtml");
                 modal.innerHTML =
                     `
-                 <div class="d-flex justify-content-center">
-                <button id="btnClose" class="btn btn-danger mx-auto d-block">Chiudi Pagina</button>
-            </div>
-            <figure>
-                <img width="600px" class="img-fluid p-3" src="https://marcolanci.it/boolean/assets/pictures/${element.getAttribute("data-id")}.png" alt="${element.title}">
-            </figure>
+                 <div>
+                    <button id="btnClose" class="btn btn-danger mx-auto d-block">Chiudi Pagina</button>
+                 </div>
+                <figure>
+                    <img width="600px" class="img-fluid p-3" src="https://marcolanci.it/boolean/assets/pictures/${element.getAttribute("data-id")}.png" alt="${element.title}">
+                </figure>
                 `
                 modal.classList.remove("d-none");
                 modal.classList.add("transparent");
